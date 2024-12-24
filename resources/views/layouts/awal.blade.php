@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Medilab Bootstrap Template</title>
+    <title>Akademik SMA N 1</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
     <!-- Favicons -->
-    <link href="{{ asset('Awal/assets/img/favicon.png') }}" rel="icon">
+    <link href="{{ asset('Awal/assets/img/icon.png') }}" rel="icon">
     <link href="{{ asset('Awal/assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -45,11 +45,7 @@
 
         <div class="topbar d-flex align-items-center">
             <div class="container d-flex justify-content-center justify-content-md-between">
-                <div class="contact-info d-flex align-items-center">
-                    <i class="bi bi-envelope d-flex align-items-center"><a
-                            href="mailto:contact@example.com">contact@example.com</a></i>
-                    <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-                </div>
+                
                 <div class="social-links d-none d-md-flex align-items-center">
                     <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -72,7 +68,7 @@
                     <ul>
                         <li><a href="#hero" class="active">Home<br></a></li>
                         <li><a href="{{ url('home') }}">Data Akademik</a></li>
-                        <li><a href="{{ url('login') }}">Login</a></li>
+                        
                         <li class="dropdown"><a href="#"><span>Dropdown</span> <i
                                     class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
@@ -133,40 +129,8 @@
                         </div>
                     </div><!-- End Why Box -->
 
-                    <div class="col-lg-8 d-flex align-items-stretch">
-                        <div class="d-flex flex-column justify-content-center">
-                            <div class="row gy-4">
-
-                                <div class="col-xl-4 d-flex align-items-stretch">
-                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="300">
-                                        <i class="bi bi-clipboard-data"></i>
-                                        <h4>Corporis voluptates officia eiusmod</h4>
-                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-                                            aliquip</p>
-                                    </div>
-                                </div><!-- End Icon Box -->
-
-                                <div class="col-xl-4 d-flex align-items-stretch">
-                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="400">
-                                        <i class="bi bi-gem"></i>
-                                        <h4>Ullamco laboris ladore pan</h4>
-                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                            deserunt</p>
-                                    </div>
-                                </div><!-- End Icon Box -->
-
-                                <div class="col-xl-4 d-flex align-items-stretch">
-                                    <div class="icon-box" data-aos="zoom-out" data-aos-delay="500">
-                                        <i class="bi bi-inboxes"></i>
-                                        <h4>Labore consequatur incidid dolore</h4>
-                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis
-                                            facere</p>
-                                    </div>
-                                </div><!-- End Icon Box -->
-
-                            </div>
-                        </div>
-                    </div>
+                   
+                    
                 </div><!-- End  Content-->
 
             </div>
@@ -181,13 +145,13 @@
                 <div class="row gy-4 gx-5">
 
                     <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('Medilab/assets/img/about.jpg') }}" class="img-fluid" alt="">
-                        <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                        <img src="{{ asset('Awal/assets/img/academy.jpeg') }}" class="img-fluid" alt="">
+                        <a href="https://youtu.be/pv648_qOz94?si=axlX3K-TIaxRUYUI"
                             class="glightbox pulsating-play-btn"></a>
                     </div>
 
                     <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-                        <h3>About Us</h3>
+                        <h3>Tentang SMAN 1</h3>
                         <p>
                             Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas
                             deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam
@@ -195,27 +159,25 @@
                         </p>
                         <ul>
                             <li>
-                                <i class="fa-solid fa-vial-circle-check"></i>
+                                <i class="fa-solid fa-computer"></i>
                                 <div>
-                                    <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                                    <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade
+                                    <h5>Lab Komputer</h5>
+                                    <p>Laboratorium komputer merupakan salah satu fasilitas terbaik di SMA. Di sini, siswa dapat belajar dan mengembangkan keterampilan teknologi informasi.
                                     </p>
                                 </div>
                             </li>
                             <li>
-                                <i class="fa-solid fa-pump-medical"></i>
+                                <i class="fa-solid fa-book"></i>
                                 <div>
-                                    <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                                    <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna
-                                        pasata redi</p>
+                                    <h5>Perpustakaan Digital</h5>
+                                    <p>Perpustakaan adalah fasilitas yang penting dalam mendukung proses belajar mengajar di SMA. Perpustakaan menyediakan koleksi buku teks, referensi, jurnal ilmiah, dan media belajar lainnya yang berguna bagi siswa dan guru.</p>
                                 </div>
                             </li>
                             <li>
-                                <i class="fa-solid fa-heart-circle-xmark"></i>
+                                <i class="fa-solid fa-futbol"></i>
                                 <div>
-                                    <h5>Voluptatem et qui exercitationem</h5>
-                                    <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime
-                                        veniam</p>
+                                    <h5>Ruang Seni & Olahraga</h5>
+                                    <p>Ruang seni dan olahraga menjadi sarana penting untuk mengembangkan bakat kreativitas dan kebugaran siswa. Ruang seni dilengkapi dengan peralatan seperti alat musik, studio seni, dan media kreatif yang memungkinkan siswa untuk berlatih seni rupa, musik, teater, atau tari. </p>
                                 </div>
                             </li>
                         </ul>
@@ -235,38 +197,38 @@
                 <div class="row gy-4">
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fa-solid fa-user-doctor"></i>
+                        <i class="fa-solid fa-chalkboard-teacher"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1"
                                 class="purecounter"></span>
-                            <p>Doctors</p>
+                            <p>Guru</p>
                         </div>
                     </div><!-- End Stats Item -->
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fa-regular fa-hospital"></i>
-                        <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Departments</p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-                        <i class="fas fa-flask"></i>
+                        <i class="fa-solid fa-book"></i>
                         <div class="stats-item">
                             <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
                                 class="purecounter"></span>
-                            <p>Research Labs</p>
+                            <p>Pelajaran</p>
+                        </div>
+                    </div><!-- End Stats Item -->
+
+                    <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+                        <i class="fa-solid fa-futbol"></i>
+                        <div class="stats-item">
+                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Kegiatan Eskul</p>
                         </div>
                     </div><!-- End Stats Item -->
 
                     <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
                         <i class="fas fa-award"></i>
                         <div class="stats-item">
-                            <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
+                            <span data-purecounter-start="0" data-purecounter-end=450" data-purecounter-duration="1"
                                 class="purecounter"></span>
-                            <p>Awards</p>
+                            <p>Penghargaan</p>
                         </div>
                     </div><!-- End Stats Item -->
 
@@ -276,105 +238,6 @@
 
         </section><!-- /Stats Section -->
 
-        <!-- Services Section -->
-        <section id="services" class="services section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Services</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row gy-4">
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="service-item  position-relative">
-                            <div class="icon">
-                                <i class="fas fa-heartbeat"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Nesciunt Mete</h3>
-                            </a>
-                            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores
-                                iure perferendis tempore et consequatur.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fas fa-pills"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Eosle Commodi</h3>
-                            </a>
-                            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum
-                                hic non ut nesciunt dolorem.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fas fa-hospital-user"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Ledo Markt</h3>
-                            </a>
-                            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id
-                                voluptas adipisci eos earum corrupti.</p>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fas fa-dna"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Asperiores Commodit</h3>
-                            </a>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga
-                                sit provident adipisci neque.</p>
-                            <a href="#" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fas fa-wheelchair"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Velit Doloremque</h3>
-                            </a>
-                            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed
-                                animi at autem alias eius labore.</p>
-                            <a href="#" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="fas fa-notes-medical"></i>
-                            </div>
-                            <a href="#" class="stretched-link">
-                                <h3>Dolori Architecto</h3>
-                            </a>
-                            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                                Corrupti recusandae ducimus enim.</p>
-                            <a href="#" class="stretched-link"></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Services Section -->
 
         <!-- Appointment Section -->
         <section id="appointment" class="appointment section">
@@ -401,41 +264,15 @@
 
         </section><!-- /Appointment Section -->
 
-        <!-- Departments Section -->
-        <section id="departments" class="departments section">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Login</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-           
-              <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                @if (Session::has('pesan'))
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        {{ Session::get('pesan') }}
-                        <button type="button" class="btn-close" data-bs-dismiss="alert"
-                            aria-label="Close"></button>
-                    </div>
-                @endif
-
-                @yield('login')
-
-                
-
-            
-
-        </section><!-- /Departments Section -->
-
+ 
+     
         <!-- Doctors Section -->
         <section id="doctors" class="doctors section">
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Doctors</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <h2>Guru</h2>
+                <p>Guru terbaik di SMAN 1 peraih penghargaan Internasional</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -444,12 +281,12 @@
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-1.jpg" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('Awal/assets/img/profilguru1.jpeg') }}" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Medical Officer</span>
-                                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                                <h4>Dr.Balqis Nabila S.Kom M.Kom M.SI</h4>
+                                <span>Kepala Divisi Pendidikan Komputer</span>
+                                <p>Peraih Penghargaan  SIGCSE untuk Kontribusi Luar Biasa pada Pendidikan Ilmu Komputer</p>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -462,12 +299,12 @@
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-2.jpg" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('Awal/assets/img/profilguru2.jpeg') }}" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Anesthesiologist</span>
-                                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                                <h4>Aprilia Melani S.Pd M.Kom,,Ph.D</h4>
+                                <span>Kepala Staff Pendidikan Matematika</span>
+                                <p>Peraih Penghargaan Breakthrough Prize in Mathematics</p>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -480,12 +317,12 @@
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-3.jpg" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('Awal/assets/img/profilguru4.jpeg') }}" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>Cardiology</span>
-                                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                                <h4>Prof.Harist Al S.Pd,B.P.Ed.</h4>
+                                <span>Guru Besar Pendidikan Olahraga</span>
+                                <p>Peraih Olympic Gold Medal 2027</p>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -498,12 +335,12 @@
 
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="team-member d-flex align-items-start">
-                            <div class="pic"><img src="assets/img/doctors/doctors-4.jpg" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('Awal/assets/img/profilguru3.jpeg') }}" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Amanda Jepson</h4>
-                                <span>Neurosurgeon</span>
-                                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                                <h4>Dr.Ed.D.Desi Nataliana S.Pd M.Kom</h4>
+                                <span>Kepala Kelas Internasional</span>
+                                <p>Peraih Penghargaan British Council ELTons Awards for Innovation in English Language Teaching</p>
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -518,98 +355,9 @@
 
             </div>
 
-        </section><!-- /Doctors Section -->
+        </section>
 
-        <!-- Faq Section -->
-        <section id="faq" class="faq section light-background">
-
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Frequently Asked Questions</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-            </div><!-- End Section Title -->
-
-            <div class="container">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
-
-                        <div class="faq-container">
-
-                            <div class="faq-item faq-active">
-                                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                                <div class="faq-content">
-                                    <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
-                                        laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor
-                                        rhoncus dolor purus non.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                                <div class="faq-content">
-                                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                                <div class="faq-content">
-                                    <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
-                                        Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl
-                                        suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis
-                                        convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                                <div class="faq-content">
-                                    <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
-                                        interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus
-                                        scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
-                                        Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                                <div class="faq-content">
-                                    <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse
-                                        in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                    </p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                            <div class="faq-item">
-                                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                                <div class="faq-content">
-                                    <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
-                                        in suscipit sequi. Distinctio ipsam dolore et.</p>
-                                </div>
-                                <i class="faq-toggle bi bi-chevron-right"></i>
-                            </div><!-- End Faq item-->
-
-                        </div>
-
-                    </div><!-- End Faq Column-->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Faq Section -->
+      
 
         <!-- Testimonials Section -->
         <section id="testimonials" class="testimonials section">
@@ -619,12 +367,9 @@
                 <div class="row align-items-center">
 
                     <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
-                        <h3>Testimonials</h3>
+                        <h3>SISWA BERPRESTASI</h3>
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident.
+                            SMAN 1 telah melahirkan banyak alumni yang tidak hanya berkontribusi di tingkat nasional, tetapi juga di tingkat internasional. Berkat pendidikan berkualitas dan pembinaan yang intensif, para alumni ini berhasil meraih prestasi yang membanggakan di berbagai bidang, seperti akademik, olahraga, seni, dan sains.
                         </p>
                     </div>
 
@@ -651,11 +396,11 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="d-flex">
-                                            <img src="assets/img/testimonials/testimonials-1.jpg"
+                                            <img src="{{ asset('Awal/assets/img/siswa1.jpeg') }}"
                                                 class="testimonial-img flex-shrink-0" alt="">
                                             <div>
-                                                <h3>Saul Goodman</h3>
-                                                <h4>Ceo &amp; Founder</h4>
+                                                <h3>Rehan</h3>
+                                                <h4>Atlet profesional di cabang olahraga bulu tangkis.</h4>
                                                 <div class="stars">
                                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -665,9 +410,7 @@
                                         </div>
                                         <p>
                                             <i class="bi bi-quote quote-icon-left"></i>
-                                            <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora
-                                                entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam
-                                                eget nibh et. Maecen aliquam, risus at semper.</span>
+                                            <span>Pengalaman di SMA Negeri 1 mengajarkan saya disiplin dan semangat untuk terus berjuang. Prestasi ini adalah hasil dari kerja keras dan dedikasi yang ditanamkan selama sekolah.</span>
                                             <i class="bi bi-quote quote-icon-right"></i>
                                         </p>
                                     </div>
@@ -676,11 +419,11 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="d-flex">
-                                            <img src="assets/img/testimonials/testimonials-2.jpg"
+                                            <img src="{{ asset('Awal/assets/img/siswa2.jpeg') }}"
                                                 class="testimonial-img flex-shrink-0" alt="">
                                             <div>
-                                                <h3>Sara Wilsson</h3>
-                                                <h4>Designer</h4>
+                                                <h3>Salsa Alya</h3>
+                                                <h4>Pengajar dan peneliti di bidang bahasa Inggris.</h4>
                                                 <div class="stars">
                                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -690,9 +433,7 @@
                                         </div>
                                         <p>
                                             <i class="bi bi-quote quote-icon-left"></i>
-                                            <span>Export tempor illum tamen malis malis eram quae irure esse labore quem
-                                                cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua
-                                                noster fugiat irure amet legam anim culpa.</span>
+                                            <span>Di SMA Negeri 1, saya belajar bagaimana mengeksplorasi passion saya dalam Bahasa Inggris. Berkat bimbingan dan pendidikan berkualitas, saya dapat berdedikasi untuk pengajaran dan penelitian bahasa</span>
                                             <i class="bi bi-quote quote-icon-right"></i>
                                         </p>
                                     </div>
@@ -701,11 +442,11 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="d-flex">
-                                            <img src="assets/img/testimonials/testimonials-3.jpg"
+                                            <img src="{{ asset('Awal/assets/img/siswa4.jpeg') }}"
                                                 class="testimonial-img flex-shrink-0" alt="">
                                             <div>
-                                                <h3>Jena Karlis</h3>
-                                                <h4>Store Owner</h4>
+                                                <h3>Azil Lenior</h3>
+                                                <h4>ilmuwan Data terkemuka di bidang ilmu komputer.</h4>
                                                 <div class="stars">
                                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -715,9 +456,7 @@
                                         </div>
                                         <p>
                                             <i class="bi bi-quote quote-icon-left"></i>
-                                            <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum
-                                                nulla quem veniam duis minim tempor labore quem eram duis noster aute
-                                                amet eram fore quis sint minim.</span>
+                                            <span>SMA Negeri 1 telah menjadi fondasi bagi saya untuk mengeksplorasi minat saya dalam ilmu komputer dan membangun keterampilan yang kini membantu saya dalam dunia teknologi yang terus berkembang.</span>
                                             <i class="bi bi-quote quote-icon-right"></i>
                                         </p>
                                     </div>
@@ -726,11 +465,11 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="d-flex">
-                                            <img src="assets/img/testimonials/testimonials-4.jpg"
+                                            <img src="{{ asset('Awal/assets/img/siswa3.jpeg') }}"
                                                 class="testimonial-img flex-shrink-0" alt="">
                                             <div>
-                                                <h3>Matt Brandon</h3>
-                                                <h4>Freelancer</h4>
+                                                <h3>Nurainah Putri</h3>
+                                                <h4>Profesor Matematika di universitas ternama.</h4>
                                                 <div class="stars">
                                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -740,9 +479,7 @@
                                         </div>
                                         <p>
                                             <i class="bi bi-quote quote-icon-left"></i>
-                                            <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
-                                                export minim fugiat minim velit minim dolor enim duis veniam ipsum anim
-                                                magna sunt elit fore quem dolore labore illum veniam.</span>
+                                            <span>Di SMA Negeri 1, saya menemukan minat dan bakat saya dalam matematika. Dedikasi dan bimbingan guru-guru membuat saya dapat melanjutkan studi dan karir di bidang matematika dengan prestasi yang gemilang.</span>
                                             <i class="bi bi-quote quote-icon-right"></i>
                                         </p>
                                     </div>
@@ -751,11 +488,11 @@
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="d-flex">
-                                            <img src="assets/img/testimonials/testimonials-5.jpg"
+                                            <img src="{{ asset('Awal/assets/img/siswa5.jpeg') }}"
                                                 class="testimonial-img flex-shrink-0" alt="">
                                             <div>
-                                                <h3>John Larson</h3>
-                                                <h4>Entrepreneur</h4>
+                                                <h3>Vin AlFarez</h3>
+                                                <h4>Seniman dan desainer grafis profesional.</h4>
                                                 <div class="stars">
                                                     <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
                                                         class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
@@ -765,9 +502,7 @@
                                         </div>
                                         <p>
                                             <i class="bi bi-quote quote-icon-left"></i>
-                                            <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam
-                                                tempor noster veniam enim culpa labore duis sunt culpa nulla illum
-                                                cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                                            <span>SMA Negeri 1 adalah tempat di mana saya menemukan bakat seni saya dan memulai perjalanan kreatif. Keterampilan dan kepercayaan diri yang saya peroleh di sini membuka pintu untuk karir di dunia seni dan desain.</span>
                                             <i class="bi bi-quote quote-icon-right"></i>
                                         </p>
                                     </div>
@@ -791,7 +526,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Gallery</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Kegiatan Disekolah</p>
             </div><!-- End Section Title -->
 
             <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -800,72 +535,69 @@
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-1.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar1.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar1.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-2.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar2.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar2.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-3.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar3.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar3.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-4.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar4.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar4.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
-
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-5.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar6.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar6.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
-                    </div><!-- End Gallery Item -->
-
+                    </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-6.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar7.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar7.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
-                    </div><!-- End Gallery Item -->
-
+                    </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-7.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belajar8.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belajar8.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
-                    </div><!-- End Gallery Item -->
+                    </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/gallery-8.jpg" class="glightbox"
+                            <a href="{{ asset('Awal/assets/img/belaajr1.jpeg') }}" class="glightbox"
                                 data-gallery="images-gallery">
-                                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                                <img src="{{ asset('Awal/assets/img/belaajr1.jpeg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Gallery Item -->
@@ -882,15 +614,10 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Silahkan Hubungi Kami Untuk Informasi Lebih Lanjut</p>
             </div><!-- End Section Title -->
 
-            <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
-                <iframe style="border:0; width: 100%; height: 270px;"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-                    frameborder="0" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div><!-- End Google Maps -->
+            
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -900,8 +627,8 @@
                         <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
-                                <h3>Location</h3>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <h3>Lokasi</h3>
+                                <p>JAKARTA INODNESIA</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -909,7 +636,9 @@
                             <i class="bi bi-telephone flex-shrink-0"></i>
                             <div>
                                 <h3>Call Us</h3>
-                                <p>+1 5589 55488 55</p>
+                                <p>62923711123
+
+                                </p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -917,7 +646,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>sman1@gmail.com</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -973,13 +702,13 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <a href="index.html" class="logo d-flex align-items-center">
-                        <span class="sitename">Medilab</span>
+                        <span class="sitename">SMAN 1</span>
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>A108 Adam Street</p>
-                        <p>New York, NY 535022</p>
-                        <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                        <p><strong>Email:</strong> <span>info@example.com</span></p>
+                        <p>JAKARTA INONESIA</p>
+                        <p>JAKARTA</p>
+                        <p class="mt-3"><strong>Contact:</strong> <span>+62923711123</span></p>
+                        <p><strong>Email:</strong> <span>sman1@gmail.com</span></p>
                     </div>
                     <div class="social-links d-flex mt-4">
                         <a href=""><i class="bi bi-twitter-x"></i></a>

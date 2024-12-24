@@ -106,4 +106,13 @@ class MapelController extends Controller
         $data['Judul']='Informasi Jadwal Pelajaran';
         return view('mapel_Laporan',$data);
     }
+    public function cari(Request $request)
+    {
+        $cari = $request->get('search');
+        $data['Mapel'] = \App\Models\Siswa::where('nama_mp', 'like', '%' . $cari . '%')
+            ->orWhere('kode_mp', 'like', '%' . $cari . '%')
+            ->paginate(5);
+        $data['Judul'] = 'Data-Data Mapel';
+        return view('mapel_index', $data);
+    }
 }

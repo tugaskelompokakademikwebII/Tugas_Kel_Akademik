@@ -46,14 +46,15 @@
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
-            <a href="index.html" class="logo">
+            <a href="index.html" class="logo" style="display: inline-block; height: 40px;">
               <img
-                src="{{asset('akademiktmplt/assets/img/kaiadmin/logo_light.svg')}}"
+                src="{{ asset('akademiktmplt/assets/img/logo.png') }}"
                 alt="navbar brand"
                 class="navbar-brand"
-                height="20"
+                style="max-height: 90px; width: auto;"
               />
             </a>
+            
             <div class="nav-toggle">
               <button class="btn btn-toggle toggle-sidebar">
                 <i class="gg-menu-right"></i>
@@ -538,7 +539,7 @@
                   >
                     <div class="avatar-sm">
                       <img
-                        src="{{ asset('akademiktmplt/assets/img/profile.jpg') }}"
+                        src="{{ asset('Awal/assets/img/siswa4.jpeg') }}"
                         alt="..."
                         class="avatar-img rounded-circle"
                       />
@@ -554,7 +555,7 @@
                         <div class="user-box">
                           <div class="avatar-lg">
                             <img
-                              src="{{ asset('akademiktmplt/assets/img/profile.jpg') }}"
+                              src="{{ asset('Awal/assets/img/siswa4.jpeg') }}"
                               alt="image profile"
                               class="avatar-img rounded"
                             />
@@ -573,10 +574,7 @@
                       <li>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">My Profile</a>
-                        <a class="dropdown-item" href="#">My Balance</a>
-                        <a class="dropdown-item" href="#">Inbox</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Account Setting</a>
+          
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="{{ route('logout') }}"
                         onclick="event.preventDefault();

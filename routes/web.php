@@ -21,9 +21,7 @@ Route::get('/Profile', function () {
     return view('profile');
 });
 Route::get('/', [SiswaController::class, 'registrasi']);
-Route::get('/login',function(){
-    return auth('login');
-});
+
 
 Auth::routes();
 
@@ -32,10 +30,13 @@ Route::middleware('auth')->group(function () {
     Route::resource('Guru',GuruController::class);
 });
 Route::get('Guru/laporan/cetak',[GuruController::class,'laporan']);
+Route::get('Guru/cari/data',[GuruController::class,'cari']);
 Route::resource('Siswa',SiswaController::class);
 Route::get('Siswa/laporan/cetak',[SiswaController::class,'laporan']);
 Route::get('Siswa/cari/data',[SiswaController::class,'cari']);
 Route::resource('Mapel',MapelController::class);
 Route::get('Mapel/laporan/cetak',[MapelController::class,'laporan']);
+Route::get('Mapel/cari/data',[MapelController::class,'cari']);
 Route::resource('Administrasi',AdministrasiController::class);
 Route::get('Administrasi/laporan/cetak',[AdministrasiController::class,'laporan']);
+Route::get('Administrasi/cari/data',[AdministrasiController::class,'cari']);

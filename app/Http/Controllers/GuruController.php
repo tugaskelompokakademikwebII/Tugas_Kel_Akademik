@@ -120,4 +120,13 @@ class GuruController extends Controller
         $data['Judul']='Laporan Data Guru';
         return view('guru_Laporan',$data);
     }
+    public function cari(Request $request)
+    {
+        $cari = $request->get('search');
+        $data['Guru'] = \App\Models\Siswa::where('nama_guru', 'like', '%' . $cari . '%')
+            ->orWhere('alamat_guru', 'like', '%' . $cari . '%')
+            ->paginate(5);
+        $data['Judul'] = 'Data-Data Guru';
+        return view('guru_index', $data);
+    }
 }

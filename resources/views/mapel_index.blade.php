@@ -9,6 +9,18 @@
 <div class="container-fluid" style="padding: 20px;">
     <div class="row justify-content-center">
         <div class="col-lg-12">
+            <div class="col-md-4">
+
+                <form class="d-flex" role="search" method="get"
+                    action="{{ url('Siswa/cari/data', []) }}">
+
+                    <input class="form-control me-2" type="search" placeholder="Cari Pelajaran..." aria-label="Search"
+                        name="search"> &nbsp;
+
+                    <button class="btn btn-outline-success" type="submit">Cari</button>
+
+                </form>
+            </div>
             <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
                 <div class="card-header" style="background-color: #007bff; color: white; font-weight: bold; text-align: center;">
                     {{ $Judul }}

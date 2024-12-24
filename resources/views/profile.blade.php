@@ -20,11 +20,11 @@
                   <div class="card">
                     <div class="card-body">
                       <div class="d-flex flex-column align-items-center text-center">
-                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                        <img src="{{ asset('Awal/assets/img/siswa4.jpeg') }}" alt="Admin" class="rounded-circle" width="150">
                         <div class="mt-3">
-                          <h4>John Doe</h4>
+                          <h4>{{ Auth::user()->name }}</h4>
                           <p class="text-secondary mb-1">Full Stack Developer</p>
-                          <p class="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
+                          <p class="text-muted font-size-sm">Jambi</p>
                           <button class="btn btn-primary">Follow</button>
                           <button class="btn btn-outline-primary">Message</button>
                         </div>
@@ -64,7 +64,7 @@
                           <h6 class="mb-0">Full Name</h6>
                         </div>
                         <div class="col-sm-9 text-secondary">
-                          Kenneth Valdez
+                          {{ Auth::user()->name }}
                         </div>
                       </div>
                       <hr>
@@ -73,7 +73,7 @@
                           <h6 class="mb-0">Email</h6>
                         </div>
                         <div class="col-sm-9 text-secondary">
-                          fip@jukmuh.al
+                          {{ Auth::user()->email }}
                         </div>
                       </div>
                       <hr>

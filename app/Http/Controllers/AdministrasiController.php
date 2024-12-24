@@ -126,4 +126,13 @@ class AdministrasiController extends Controller
     
     return view('administrasi_laporan', compact('administrasi', 'admn'));
     }
+    public function cari(Request $request)
+    {
+        $cari = $request->get('search');
+        $data['administrasi'] = \App\Models\Siswa::where('siswa_id', 'like', '%' . $cari . '%')
+            ->orWhere('guru_id', 'like', '%' . $cari . '%')
+            ->paginate(5);
+        $data['admn'] = 'Data-Data Administrasi';
+        return view('administrasi_index', $data);
+    }
 }
