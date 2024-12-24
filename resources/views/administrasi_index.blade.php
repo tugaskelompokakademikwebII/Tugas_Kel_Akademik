@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 @section('isinya')
+=======
+@extends('layouts.app')
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 <style>
     .biaya-display{
         display: inline-block;
@@ -7,6 +11,7 @@
         min-width:100px;
     }
 </style>
+<<<<<<< HEAD
 
     <div class="container-fluid">
         <div class="row justify-content-center">
@@ -26,6 +31,14 @@
                
                         <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
                             <div class="card-header" style="background-color: #3bc51c; color: white; font-weight: bold; text-align: center;">
+=======
+@section('content')
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                         {{ $admn }}
                     </div>
                     <div class="card-body">

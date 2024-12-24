@@ -13,7 +13,11 @@ class GuruController extends Controller
     public function index()
     {
         
+<<<<<<< HEAD
         $data['Guru']= \App\Models\Guru::paginate(5);
+=======
+        $data['Guru']= \App\Models\Guru::paginate(3);
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
         $data['Judul']= 'Data-Data Guru';
         return view('guru_index',$data);
     
@@ -87,7 +91,10 @@ class GuruController extends Controller
             'nama_guru' => 'required',
             'alamat_guru' => 'required',
             'nomorhp_guru' => 'required',
+<<<<<<< HEAD
             'jk' => 'required',
+=======
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
             'bidang' => 'required',
         ]);
         
@@ -96,7 +103,10 @@ class GuruController extends Controller
         $Guru->nama_guru = $request->nama_guru;
         $Guru->alamat_guru = $request->alamat_guru;
         $Guru->nomorhp_guru = $request->nomorhp_guru;
+<<<<<<< HEAD
         $Guru->jk = $request->jk;
+=======
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
         $Guru->bidang = $request->bidang;
         $Guru->save();
         
@@ -120,6 +130,7 @@ class GuruController extends Controller
         $data['Judul']='Laporan Data Guru';
         return view('guru_Laporan',$data);
     }
+<<<<<<< HEAD
     public function cari(Request $request)
     {
         $cari = $request->get('search');
@@ -129,4 +140,6 @@ class GuruController extends Controller
         $data['Judul'] = 'Data-Data Guru';
         return view('guru_index', $data);
     }
+=======
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 }

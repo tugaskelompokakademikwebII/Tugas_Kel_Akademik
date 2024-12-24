@@ -1,15 +1,25 @@
 
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
     @extends('layouts.akademiktmplt')
     @section('isinya')
+=======
+    @extends('layouts.app')
+    @section('content')
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laporan Data Siswa</title>
 
+<<<<<<< HEAD
 
+=======
+    <!-- Scripts-->
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 </head>
 <style>
     body {
@@ -42,7 +52,11 @@
     }
 
     table th {
+<<<<<<< HEAD
 background-color: #ada620 !important;
+=======
+background-color: #f1ff70 !important;
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 color: #000000 !important;
 border-bottom: 1px solid #dee2e6 !important;
 font-weight: bold !important;
@@ -57,7 +71,11 @@ font-weight: bold !important;
     }
 
     table tbody tr:hover td {
+<<<<<<< HEAD
         background-color: hsl(163, 100%, 94%);
+=======
+        background-color: hsl(117, 100%, 90%);
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
     }
 
     h5 {
@@ -92,7 +110,11 @@ font-weight: bold !important;
                             <th>Jenis Kelamin</th>
                             <th>Alamat</th>
                             <th>Nomor Hp</th>
+<<<<<<< HEAD
                            
+=======
+                            <th>Aksi</th>
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                         </tr>
                     </thead>
                     <tbody>
@@ -105,7 +127,10 @@ font-weight: bold !important;
                             <td>{{ $a->jk }}</td>
                             <td>{{ $a->alamat_siswa }}</td>
                             <td>{{ $a->nomorhp_siswa }}</td>
+<<<<<<< HEAD
                            
+=======
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                         </tr>
                         @endforeach
                     </tbody>

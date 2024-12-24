@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 
 @section('isinya')
+=======
+@extends('layouts.app')
+
+@section('content')
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div class="col-md-12">
@@ -22,7 +28,11 @@
                         <div class="form-group">
                             <label for="siswa_id">Siswa</label>
                             <select id="siswa_id" class="form-control" name="siswa_id">
+<<<<<<< HEAD
                                 <option value="">Pilih Siswa</option>
+=======
+                                <option value="">Pilih Pasien</option>
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                                 @foreach ($list_siswa as $id => $tampil)
                                     <option value="{{ $id }}" @selected($id == old('siswa_id'))>{{ $tampil }}</option>
                                 @endforeach

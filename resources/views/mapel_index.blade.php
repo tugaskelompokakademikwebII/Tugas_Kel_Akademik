@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 @section('isinya')
 <style>
@@ -29,6 +30,20 @@
                     <div class="table-responsive">
                         <table class="table table-bordered table-striped table-hover" style="width: 100%; margin: 0 auto; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px; overflow: hidden; text-align: center;">
                             <thead style="background-color: #000000; font-weight: bold; text-align: center;">
+=======
+@extends('layouts.app')
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    {{ $Judul }}
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead>
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                             <tr>
                                 <th>ID</th>
                                 <th>Kode Mapel</th>
@@ -40,7 +55,11 @@
                         </thead>
                         <tbody>
                             @foreach ($Mapel as $a)
+<<<<<<< HEAD
                             <tr style="transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#fbffb6';" onmouseout="this.style.backgroundColor='#fbffb6';">
+=======
+                            <tr>
+>>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                                 <td>{{ $a->id }}</td>
                                 <td>{{ $a->kode_mp }}</td>
                                 <td>{{ $a->nama_mp }}</td>
