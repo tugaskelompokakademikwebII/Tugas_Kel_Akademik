@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 @section('isinya')
-=======
-@extends('layouts.app')
-@section('content')
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -41,7 +36,6 @@
                             </select>
                             <span class="text-danger">{{ $errors->first('bidang') }}</span>
                         </div>
-<<<<<<< HEAD
                         <div class="form-group">
                             <label for="jk">Jenis Kelamin</label>
                             <select id="jk" class="form-control" name="jk">
@@ -51,8 +45,6 @@
                             </select>
                             <span class="text-danger">{{ $errors->first('jk') }}</span>
                         </div>
-=======
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 
 
                         <div class="form-group">

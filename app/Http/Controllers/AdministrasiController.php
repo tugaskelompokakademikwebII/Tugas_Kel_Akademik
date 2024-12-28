@@ -15,11 +15,7 @@ class AdministrasiController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
         $data['administrasi']= \App\Models\Administrasi::with(['Guru', 'Siswa','Mapel'])->paginate(5);
-=======
-        $data['administrasi']= \App\Models\Administrasi::with(['Guru', 'Siswa','Mapel'])->paginate(3);
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
         $data['admn']= 'Data-Data administrasi';
         return view('administrasi_index',$data);
     }
@@ -130,7 +126,6 @@ class AdministrasiController extends Controller
     
     return view('administrasi_laporan', compact('administrasi', 'admn'));
     }
-<<<<<<< HEAD
     public function cari(Request $request)
     {
         $cari = $request->get('search');
@@ -140,6 +135,4 @@ class AdministrasiController extends Controller
         $data['admn'] = 'Data-Data Administrasi';
         return view('administrasi_index', $data);
     }
-=======
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 }

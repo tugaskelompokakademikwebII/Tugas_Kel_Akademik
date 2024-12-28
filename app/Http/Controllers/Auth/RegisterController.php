@@ -69,11 +69,8 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
-<<<<<<< HEAD
     public function showRegisterForm()
     {
         return view('auth.login2');
     }
-=======
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 }

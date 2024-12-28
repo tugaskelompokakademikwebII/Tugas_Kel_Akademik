@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 @section('isinya')
 <style>
@@ -33,20 +32,6 @@
                 <div class="card-body">
                     <table class="table table-bordered table-striped table-hover">
                         <thead style="background-color: #000000; font-weight: bold; text-align: center;">
-=======
-@extends('layouts.app')
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    {{ $Judul }}
-                </div>
-                <div class="card-body">
-                    <table class="table table-bordered table-striped table-hover">
-                        <thead>
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                             <tr>
                                 <th>ID</th>
                                 <th>NIK</th>
@@ -60,11 +45,7 @@
                         </thead>
                         <tbody>
                             @foreach ($Siswa as $a)
-<<<<<<< HEAD
                             <tr style="transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#fbffb6';" onmouseout="this.style.backgroundColor='#fbffb6';">
-=======
-                            <tr>
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                                 <td>{{ $a->id }}</td>
                                 <td>{{ $a->kode_siswa }}</td>
                                 <td>{{ $a->nama_siswa }}</td>

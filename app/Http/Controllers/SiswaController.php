@@ -11,11 +11,7 @@ class SiswaController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
         $data['Siswa']= \App\Models\Siswa::paginate(5);
-=======
-        $data['Siswa']= \App\Models\Siswa::paginate(3);
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
         $data['Judul']= 'Data-Data Siswa';
         return view('siswa_index',$data);
     }
@@ -115,7 +111,6 @@ class SiswaController extends Controller
         $data['Judul']='Laporan Data Siswa';
         return view('siswa_Laporan',$data);
     }
-<<<<<<< HEAD
     public function cari(Request $request)
     {
         $cari = $request->get('search');
@@ -130,6 +125,4 @@ class SiswaController extends Controller
         $data['list_jk'] = ['Laki-Laki','Perempuan'];
         return view('registrasi_form', $data);
     }
-=======
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 }

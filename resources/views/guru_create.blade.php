@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @extends('layouts.akademiktmplt')
 @section('isinya')
 <div class="container-fluid">
@@ -7,16 +6,6 @@
             <div class="card">
                 <div class="card-header text-center">
                     <h5>Tambah Data Guru</h5>
-=======
-@extends('layouts.app')
-@section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">
-                    Tambah data Guru
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
                 </div>
                 <div class="card-body">
                     <form action="{{ route('Guru.store') }}" method="POST">
@@ -59,7 +48,6 @@
                             <input id="nomorhp_guru" class="form-control" type="text" name="nomorhp_guru" value="{{ old('nomorhp_guru') }}">
                             <span class="text-danger">{{ $errors->first('nomorhp_guru') }}</span>
                         </div>
-<<<<<<< HEAD
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary btn-block">Simpan</button>
                         </div>
@@ -69,15 +57,4 @@
         </div>
     </div>
 </div>
-=======
-                        <button type="submit" class="btn btn-primary">Simpan</button>
-                    </form>
-                    
-            </div>
-
-        </div>
-    </div>
-</div>
-</div>
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 @endsection

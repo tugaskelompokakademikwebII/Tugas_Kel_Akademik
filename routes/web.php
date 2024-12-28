@@ -17,18 +17,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-<<<<<<< HEAD
 Route::get('/Profile', function () {
     return view('profile');
 });
 Route::get('/', [SiswaController::class, 'registrasi']);
 
-=======
-
-Route::get('/', function () {
-    return view('welcome');
-});
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
 
 Auth::routes();
 
@@ -37,7 +30,6 @@ Route::middleware('auth')->group(function () {
     Route::resource('Guru',GuruController::class);
 });
 Route::get('Guru/laporan/cetak',[GuruController::class,'laporan']);
-<<<<<<< HEAD
 Route::get('Guru/cari/data',[GuruController::class,'cari']);
 Route::resource('Siswa',SiswaController::class);
 Route::get('Siswa/laporan/cetak',[SiswaController::class,'laporan']);
@@ -48,11 +40,3 @@ Route::get('Mapel/cari/data',[MapelController::class,'cari']);
 Route::resource('Administrasi',AdministrasiController::class);
 Route::get('Administrasi/laporan/cetak',[AdministrasiController::class,'laporan']);
 Route::get('Administrasi/cari/data',[AdministrasiController::class,'cari']);
-=======
-Route::resource('Siswa',SiswaController::class);
-Route::get('Siswa/laporan/cetak',[SiswaController::class,'laporan']);
-Route::resource('Mapel',MapelController::class);
-Route::get('Mapel/laporan/cetak',[MapelController::class,'laporan']);
-Route::resource('Administrasi',AdministrasiController::class);
-Route::get('Administrasi/laporan/cetak',[AdministrasiController::class,'laporan']);
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b

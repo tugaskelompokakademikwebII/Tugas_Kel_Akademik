@@ -11,11 +11,8 @@ class MapelController extends Controller
      */
     public function index()
     {
-<<<<<<< HEAD
         $data['Mapel']= \App\Models\Mapel::paginate(5);
-=======
         $data['Mapel']= \App\Models\Mapel::paginate(3);
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
         $data['Judul']= 'Jadwal Pelajaran';
         return view('mapel_index',$data);
     }
@@ -110,7 +107,7 @@ class MapelController extends Controller
         $data['Judul']='Informasi Jadwal Pelajaran';
         return view('mapel_Laporan',$data);
     }
-<<<<<<< HEAD
+
     public function cari(Request $request)
     {
         $cari = $request->get('search');
@@ -120,6 +117,5 @@ class MapelController extends Controller
         $data['Judul'] = 'Data-Data Mapel';
         return view('mapel_index', $data);
     }
-=======
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
+
 }
