@@ -8,8 +8,8 @@
       name="viewport"
     />
     <link
-      rel="{{asset('akademiktmplt/assets/icon')}}"
-      href="{{asset('akademiktmplt/assets/img/kaiadmin/favicon.ico')}}"
+      rel="{{ asset('Awal/assets/img/icon.png') }}"
+      href="{{ asset('Awal/assets/img/icon.png') }}"
       type="image/x-icon"
     />
     <script src="{{ asset('akademiktmplt/assets/js/plugin/webfont/webfont.min.js') }}"></script>
@@ -562,7 +562,7 @@
                           </div>
                           <div class="u-text">
                             <h4>{{ Auth::user()->name }}</h4>
-                            <p class="text-muted">hello@example.com</p>
+                            <p class="text-muted">{{ Auth::user()->email }}</p>
                             <a
                               href="{{ url('Profile') }}"
                               class="btn btn-xs btn-secondary btn-sm"
