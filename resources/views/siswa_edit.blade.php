@@ -26,6 +26,26 @@
                                 value="{{ $Siswa->nama_siswa ?? old('nama_siswa') }}">
                             <span class="text-danger">{{ $errors->first('nama_siswa') }}</span>
                         </div>
+                        <div class="form-group">
+                            <label for="tanggal_lahir">Tanggal Lahir</label>
+                            <input 
+                                type="date" 
+                                id="tanggal_lahir" 
+                                class="form-control" 
+                                name="tanggal_lahir" 
+                                value="{{ old('tanggal_lahir') }}">
+                            <span class="text-danger">{{ $errors->first('tanggal_lahir') }}</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="jk">Jenis Kelamin</label>
+                            <select id="jk" class="form-control" name="jk">
+                                @foreach ($list_jk as $a)
+                                <option value="{{ $a }}" @selected($a == old('jk'))>{{ $a }}</option>
+                                @endforeach
+                            </select>
+                            <span class="text-danger">{{ $errors->first('jk') }}</span>
+                        </div>
                      
 
 

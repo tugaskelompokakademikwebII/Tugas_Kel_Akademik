@@ -55,8 +55,8 @@
                                             <a href="{{ url('Administrasi/' . $a->id . '/edit', []) }}"
                                                 class="btn btn-primary btn-sm">Edit</a>
 
-                                            <form action="{{ url('administrasi/' . $a->id, []) }}" method="post"
-                                                class="d-inline" onsubmit="return confirm('Apakah Dihapus?')">
+                                          
+                                            <form action="{{ url('Administrasi/'.$a->id,[]) }}" method="post" class="d-inline" onsubmit="return confirm('Apakah Dihapus?')">
                                                 @method('delete')
                                                 @csrf
                                                 <button type="submit" class="btn btn-danger btn-sm">Hapus</button>

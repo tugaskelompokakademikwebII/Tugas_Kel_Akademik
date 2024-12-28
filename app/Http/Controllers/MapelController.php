@@ -12,7 +12,7 @@ class MapelController extends Controller
     public function index()
     {
         $data['Mapel']= \App\Models\Mapel::paginate(5);
-        $data['Mapel']= \App\Models\Mapel::paginate(3);
+       
         $data['Judul']= 'Jadwal Pelajaran';
         return view('mapel_index',$data);
     }

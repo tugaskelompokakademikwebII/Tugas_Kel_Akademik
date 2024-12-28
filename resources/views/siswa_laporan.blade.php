@@ -52,7 +52,7 @@ font-weight: bold !important;
     }
 
     table tbody tr:nth-child(even) td {
-        background-color: #f90808;
+        background-color: #ffffff;
     }
 
     table tbody tr:hover td {

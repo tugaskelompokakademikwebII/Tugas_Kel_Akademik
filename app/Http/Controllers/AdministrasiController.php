@@ -119,6 +119,7 @@ class AdministrasiController extends Controller
         $administrasi->delete();
         return back()->with('pesan','Data Sudah Dihapus');
     }
+    
     public function laporan()
     {
         $administrasi = Administrasi::with(['Siswa', 'Guru','Mapel'])->get();

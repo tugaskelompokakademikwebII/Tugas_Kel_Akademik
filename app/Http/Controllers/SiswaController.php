@@ -80,6 +80,9 @@ class SiswaController extends Controller
             'nama_siswa' => 'required',
             'alamat_siswa' => 'required',
             'nomorhp_siswa' => 'required',
+            'jk' => 'required',
+            'tanggal_lahir' => 'required',
+            
           
             
         ]);
@@ -89,6 +92,8 @@ class SiswaController extends Controller
         $Siswa->nama_siswa = $request->nama_siswa;
         $Siswa->alamat_siswa = $request->alamat_siswa;
         $Siswa->nomorhp_siswa = $request->nomorhp_siswa;
+        $Siswa->jk = $request->jk;
+        $Siswa->tanggal_lahir = $request->tanggal_lahir;
        
     
         $Siswa->save();
