@@ -171,6 +171,41 @@
                     </div>
                 </li>
             </ul>
+            <li class="nav-item {{ request()->is('Nilai*') ? 'active' : '' }}">
+              <a data-bs-toggle="collapse" href="#informasiNilai" class="nav-link">
+                  <i class="fas fa-file"></i>
+                  <p>Informasi Nilai</p>
+                  <span class="caret"></span>
+              </a>
+              <div class="collapse {{ request()->is('Nilai*') ? 'show' : '' }}" id="informasiNilai">
+                  <ul class="nav nav-collapse">
+                      <li class="{{ request()->is('Nilai') ? 'active' : '' }}">
+                          <a href="{{ url('Nilai') }}">
+                              <span class="sub-item">Data Nilai</span>
+                          </a>
+                      </li>
+                      <li class="{{ request()->is('Nilai/create') ? 'active' : '' }}">
+                          <a href="{{ url('Nilai/create') }}">
+                              <span class="sub-item">Tambah Nilai</span>
+                          </a>
+                          <li class="{{ request()->is('Siswa/laporan/*') ? 'active' : '' }}">
+                            <a href="{{ url('Siswa/laporan/1') }}">
+                                <span class="sub-item">Laporan Data Siswa</span>
+                            </a>
+                      </li>
+
+                      <li class="{{ request()->is('Siswa/laporan/semua') ? 'active' : '' }}">
+                          <a href="{{ route('laporan.semua') }}">
+                              <span class="sub-item">Laporan Semua Siswa</span>
+                          </a>
+                      </li>
+                      
+                        
+                    
+                    
+                  </ul>
+              </div>
+          </li>
             
             <li class="nav-item {{ request()->is('Administrasi*') ? 'active' : '' }}">
               <a data-bs-toggle="collapse" href="#informasiAdministrasi" class="nav-link">

@@ -9,9 +9,16 @@ class Mapel extends Model
 {
     use HasFactory;
     protected $fillable = ['kode_mp', 'nama_mp', 'jadwal','kelas'];
+    
 
     public function administrasis()
     {
         return $this->hasMany(Administrasi::class, 'mapel_id');
+    }
+    
+
+    public function nilais()
+    {
+        return $this->hasMany(Nilai::class);
     }
 }

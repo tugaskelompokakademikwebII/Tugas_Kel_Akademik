@@ -3,6 +3,7 @@ use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\MapelController;
 use App\Http\Controllers\AdministrasiController;
+use App\Http\Controllers\NilaiController;
 use App\Models\Siswa;
 use Illuminate\Support\Facades\Route;
 
@@ -40,3 +41,19 @@ Route::get('Mapel/cari/data',[MapelController::class,'cari']);
 Route::resource('Administrasi',AdministrasiController::class);
 Route::get('Administrasi/laporan/cetak',[AdministrasiController::class,'laporan']);
 Route::get('Administrasi/cari/data',[AdministrasiController::class,'cari']);
+
+Route::resource('Nilai', NilaiController::class);
+Route::post('Nilai', [NilaiController::class, 'store'])->name('nilai.store');
+Route::post('Nilai', [NilaiController::class, 'index'])->name('nilai_index');
+
+
+Route::get('Siswa/laporan/{siswa_id}', [NilaiController::class, 'laporan'])->name('laporan.nilai');
+Route::get('Nilai/Siswa/laporan/semua', [NilaiController::class, 'laporanSemua'])->name('laporan.semua');
+
+
+
+
+
+
+
+
