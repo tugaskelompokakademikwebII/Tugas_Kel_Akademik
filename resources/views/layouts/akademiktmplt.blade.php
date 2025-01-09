@@ -190,13 +190,13 @@
                           </a>
                           <li class="{{ request()->is('Siswa/laporan/*') ? 'active' : '' }}">
                             <a href="{{ url('Siswa/laporan/1') }}">
-                                <span class="sub-item">Laporan Data Siswa</span>
+                                <span class="sub-item">Laporan Nilai Siswa</span>
                             </a>
                       </li>
 
                       <li class="{{ request()->is('Siswa/laporan/semua') ? 'active' : '' }}">
                           <a href="{{ route('laporan.semua') }}">
-                              <span class="sub-item">Laporan Semua Siswa</span>
+                              <span class="sub-item">Laporan Nilai Semua Siswa</span>
                           </a>
                       </li>
                       

@@ -43,7 +43,8 @@ Route::get('Administrasi/laporan/cetak',[AdministrasiController::class,'laporan'
 Route::get('Administrasi/cari/data',[AdministrasiController::class,'cari']);
 
 Route::resource('Nilai', NilaiController::class);
-Route::post('Nilai', [NilaiController::class, 'store'])->name('nilai.store');
+Route::post('/nilai', [NilaiController::class, 'store'])->name('nilai.store');
+
 Route::post('Nilai', [NilaiController::class, 'index'])->name('nilai_index');
 
 
