@@ -77,10 +77,5 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
 </body>
 </html>
-=======
-</div>
-@endsection
->>>>>>> f4e61944f63fd80786e8c81a824bdf544359ec7b
